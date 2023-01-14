@@ -10,7 +10,7 @@ def init():
     device = 0 if torch.cuda.is_available() else -1
 
     # Flan-T5 version, if changed be sure to update in download.py too
-    model_name = "google/flan-t5-xl"
+    model_name = "google/flan-t5-large"
     tokenizer = T5Tokenizer.from_pretrained(model_name)
     model = T5ForConditionalGeneration.from_pretrained(model_name).to("cuda")
 

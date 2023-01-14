@@ -7,7 +7,7 @@ from transformers import T5Tokenizer, T5ForConditionalGeneration
 
 def download_model():
     # do a dry run of loading the huggingface model, which will download weights
-    model_name = "google/flan-t5-xl"
+    model_name = "google/flan-t5-large"
     tokenizer = T5Tokenizer.from_pretrained(model_name)
     model = T5ForConditionalGeneration.from_pretrained(model_name)
 
