@@ -1,0 +1,7 @@
+{
+    "name": "Flan T5 Large",
+    "category": "Natural Language",
+    "example_input": {"prompt": "translate English to German: How old are you?"},
+    "example_output": {"output": "Wie alte sind Sie?"},
+    "version": "1"
+  }
